@@ -1,6 +1,6 @@
 # Knight's Tour Problem
 
-This repository provides a Python solution for the Knight's Tour problem. The problem involves finding a sequence of moves for a knight on a chessboard of dimensions $\(f \times c\)$ such that the knight visits each square exactly once.
+This repository provides a solution in various languages for the Knight's Tour problem. The problem involves finding a sequence of moves for a knight on a chessboard of dimensions $\(f \times c\)$ such that the knight visits each square exactly once.
 
 ## Problem Description
 
@@ -24,7 +24,7 @@ The source code is located in the `KnightTour.py` file and utilizes various func
 To run the program, provide the dimensions of the board $\(f\)$ and $\(c\)$, as well as the initial coordinates of the knight $\((i, j)\)$. Here is an example of input:
 
 ```bash
-python3 KnightTour.py
+8 8 0 0
 ```
 
 ## Output Explanation
@@ -38,14 +38,14 @@ If a knight's tour is feasible, the program will display a sequential series of 
 Here's an example output:
 
 ```plaintext
-0001 0016 0035 0020 0173 0044 0019 0002 
-0034 0175 0000 0171 0036 0177 0043 0018 
-0015 0002 0174 0045 0172 0179 0040 0003 
-0176 0033 0170 0007 0175 0038 0017 0042 
-0006 0013 0032 0179 0046 0005 0041 0178 
-0014 0177 0008 0039 0016 0047 0178 0011 
-0171 0006 0013 0004 0031 0008 0010 0045 
-0007 0170 0009 0012 0003 0046 0049 0050 
+0001 0011 0005 0015 0032 0047 0064 0054 
+0048 0063 0053 0059 0049 0034 0017 0002 
+0012 0006 0016 0031 0021 0004 0010 0025 
+0019 0009 0003 0018 0033 0027 0042 0057 
+0051 0041 0058 0043 0026 0036 0030 0020 
+0037 0022 0007 0024 0014 0008 0023 0013 
+0028 0038 0055 0040 0046 0061 0044 0029 
+0039 0056 0062 0052 0035 0045 0060 0050  
 ```
 
 In this representation, each number denotes a step in the knight's tour.
